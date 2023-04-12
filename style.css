@@ -204,3 +204,57 @@
         right: 10%;
     }
 }
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: fullmovement 2s linear;
+}
+
+@keyframes fullmovement{
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    35% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    40% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: fullbottommovement 2s linear;
+}
+
+@keyframes fullbottommovement{
+    0% {
+        right: 10%;
+        bottom: -10px;
+    }
+    35% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    40% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    100% {
+        right: 10%;
+        bottom: -10px;
+    }
+}
