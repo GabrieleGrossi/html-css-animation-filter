@@ -124,3 +124,21 @@
     transition: 2s;
 }
 
+.ex-8-img:hover{
+    filter: grayscale(0.7);
+    border-radius: 25px;
+}
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    border-radius: 25px;
+    filter: grayscale(0.7);
+}
+
+.ex-9-img{
+    transition: 2s;
+}
