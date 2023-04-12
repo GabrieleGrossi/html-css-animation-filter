@@ -151,12 +151,24 @@
 }
 
 @keyframes spin{
-    from{
-        transform: rotate(360deg);
-    }
-    to{
-        transform: rotate(0deg);
+    0%{
+        transform: rotate(1turn);
     }
     
 }
 
+.ex-11-icon:hover{
+    animation: spinspin 3s linear;
+}
+
+@keyframes spinspin{
+    0% {
+        transform: rotate(0);
+    }
+    85% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
